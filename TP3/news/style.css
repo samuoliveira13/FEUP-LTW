@@ -153,3 +153,14 @@ article > header > h1 {
     text-decoration: underline;
 }
 
+footer {
+    background-color: #2a2f33;
+    color: white;
+    margin: 0;
+    margin-top: 1em;
+}
+
+footer > p {
+    margin: 0;
+    padding: 0.5em;
+}
