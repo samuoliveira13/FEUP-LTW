@@ -123,3 +123,33 @@ article > header > h1 {
     text-shadow: 4px 6px 4px black;
 }
 
+#news p {
+    color:black;
+    margin: 1em;
+    font-weight: 400;
+}
+
+#news p:first-of-type:first-letter {
+    font-size: 1.5rem;
+}
+
+#news footer {
+    background-color: #f4655f;
+    padding: 1em;
+    color:white;
+    font-size: 0.72rem;
+    letter-spacing: 0px;
+}
+
+#news footer .date {
+    margin: 1.2em;
+}
+
+#news footer > span > a {
+    text-decoration: underline;
+}
+
+#news footer > a {
+    text-decoration: underline;
+}
+
