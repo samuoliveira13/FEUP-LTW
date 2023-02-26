@@ -1,0 +1,23 @@
+header {
+    display: grid;
+    grid-template-columns:2fr 2fr;
+    grid-template-rows: 3em 3em;
+}
+
+header h1 {
+    grid-column-end: span 2;
+}
+
+header h2 {
+    grid-column: 1;
+}
+
+header div {
+    padding-right: 1em;
+    display: flex;
+    justify-content: end;
+    grid-column: 2;
+    text-align: right;
+    align-self: end;
+    gap: 3em;
+}
