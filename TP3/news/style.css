@@ -85,3 +85,41 @@ nav > ul > li > a{
     color: black;
 }
 
+aside {
+    background-color: #2A2F33;
+    padding: 1em;
+}
+
+article > h1 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: 1em;
+}
+
+article > p {
+    font-family: 'Lora', sans-serif;
+    font-size: 0.9rem;
+    color: white;
+    line-height: 1.6em;
+}
+
+article > header {
+    background-color: transparent;
+    position: relative;
+    margin: 1em;
+    padding: 0;
+    color: black;
+}
+
+img {
+    width: 100%;
+}
+
+article > header > h1 {
+    font-size:  1.7rem;
+    position: absolute;
+    width: 9em;
+    margin: 0.5em;
+    text-shadow: 4px 6px 4px black;
+}
+
