@@ -3,7 +3,7 @@
 html {
     margin: 0;
     padding: 0;
-    background-color: green;
+    background-color: lightgray;
 }
 
 body {
@@ -125,6 +125,10 @@ article > header > h1 {
     width: 9em;
     margin: 0.5em;
     text-shadow: 4px 6px 4px black;
+}
+
+#news header {
+    all: revert;
 }
 
 #news p {

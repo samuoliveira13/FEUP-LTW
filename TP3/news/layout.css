@@ -21,3 +21,16 @@ header div {
     align-self: end;
     gap: 3em;
 }
+nav {
+    width: 48em;
+    border-bottom: 1em solid lightgray;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav ul li {
+    width: 10em;
+}
