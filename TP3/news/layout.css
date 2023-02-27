@@ -1,5 +1,13 @@
+body {
+    display: grid;
+    grid-template-columns:48em 12em;
+    grid-template-rows: 6.5em 4em 220.3em 3.5   em;
+}
+
 header {
     display: grid;
+    grid-column-start: 1;
+    grid-column-end: 3;
     grid-template-columns:2fr 2fr;
     grid-template-rows: 3em 3em;
 }
@@ -34,3 +42,36 @@ nav ul{
 nav ul li {
     width: 10em;
 }
+
+aside {
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+nav {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+#news {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+#news footer {
+    margin-bottom: 1em;
+}
+
+footer {
+    grid-row-start: 4;
+    display: grid;
+    grid-template-columns: 43em 12em 4em 7em;
+    grid-template-rows: 2em;
+    align-items: center;
+}
+
+footer span:nth-child(2) {
+    text-align: right;
+}
+
