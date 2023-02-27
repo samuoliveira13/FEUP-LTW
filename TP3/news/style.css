@@ -9,7 +9,7 @@ html {
 body {
     font-family: 'Poppins', serif;
     margin: auto;
-    width: 60em;
+    max-width: 60em;
     background-color: white;
 }
 

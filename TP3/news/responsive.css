@@ -1,0 +1,18 @@
+@media only screen and (min-width: 30em) and (max-width: 60em) {
+    body {
+        width: 100%;
+        display: inline;
+        overflow-x: hidden;
+    }
+    nav {
+        width: 100%;
+    }
+    aside {
+        display: none;
+    }
+    #news footer {
+        grid-template-columns: 50em 12em 4em 7em;
+        grid-template-rows: 2em;
+    }
+
+}
