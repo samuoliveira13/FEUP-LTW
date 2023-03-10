@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Martel Sans', sans-serif;
+    width: 60em;
+    margin: 10em auto;
+}
+form {
+    display: grid;
+    align-items: center;
+    grid-template-columns:20em 20em 20em;
+    grid-template-rows: 6em 6em 6em 6em 10em;
+}
+
+#fname {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+#lname {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+#username {
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+
+#email {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+}
+#address {
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+#bio {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+#register {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+button {
+    position: relative;
+    left: 53em;
+    color: white;
+    font-weight: 700;
+    background-color: #84CC16;
+    border: none;
+    border-radius: 0.4em;
+    width: 18em;
+    height: 4em;
+}
+
+input, select, textarea{
+    padding-left: 1em;
+    background-color: #ECFCCB;
+    height: 3em;
+    border-radius: 0.4em;
+    border: 2px solid #84CC16;
+}
+
+.required {
+    color: #DC2626;
+}
+#fname input, #lname input, #username input, #password input,#country select, #city input, #zipcode input {
+    width: 90%;
+}
+#email input {
+    width: 45.5em;
+}
+#address input, #bio textarea {
+    width: 97%;
+}
+#bio textarea {
+    height: 8em;
+}
+
+#username input, #email input, #password input {
+    background-color: #FECACA;
+    border-color: #F87171 ;
+}
