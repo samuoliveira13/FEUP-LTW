@@ -1,0 +1,52 @@
+body {
+    width: 53em;
+    display: block;
+}
+nav {
+    width: 100%;
+}
+aside {
+    display: none;
+}
+
+#register {
+    background-color: #edeff0;;
+    padding:5em;
+    padding-bottom: 18em;
+    display: flex;
+    flex-direction: column;
+}
+#register h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding-bottom: 1em;
+    width: 100%;
+    text-align: center;
+}
+
+#register form {
+    display: grid;
+    padding: 1em;
+    background-color: white;
+    width: 20em;
+    margin: 0 auto;
+}
+
+#register form label {
+    margin: 1em;
+}
+#register form input {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+#register form button {
+    background-color: black;
+    color: white;
+    width: 5em;
+    height: 3em;
+    margin-left: 1em;
+    border: none;
+}
